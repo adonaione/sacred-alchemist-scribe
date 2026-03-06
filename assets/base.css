@@ -1,0 +1,46 @@
+/* SACRED CREATIONS - LIQUID GOLD BRAND SKIN
+  Palette: Cream, Charcoal, Alchemist Gold
+*/
+
+:root {
+  --gold-accent: #B58E4F;
+  --sacred-cream: #F9F7F2;
+  --deep-charcoal: #2C2C2C;
+}
+
+body {
+  background-color: var(--sacred-cream);
+  color: var(--deep-charcoal);
+  font-family: 'Cormorant Garamond', serif; /* Ancient & Elegant */
+  line-height: 1.8;
+}
+
+/* Luxury Header Spacing */
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* The "Anointing" Button - Subtle & High-End */
+.button--primary {
+  background: transparent;
+  color: var(--deep-charcoal);
+  border: 1px solid var(--gold-accent);
+  border-radius: 0;
+  padding: 15px 40px;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button--primary:hover {
+  background: var(--gold-accent);
+  color: white;
+  box-shadow: 0 10px 20px rgba(181, 142, 79, 0.2);
+}
+
+/* Product Image Softness */
+.product-card img {
+  filter: sepia(10%) brightness(102%); /* Gives photos a warm, altar-lit glow */
+  transition: transform 1.2s ease;
+}
